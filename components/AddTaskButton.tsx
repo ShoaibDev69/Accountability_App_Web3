@@ -18,7 +18,7 @@ import { Web3Button } from "@thirdweb-dev/react";
 import { ACCOUNTABILITY_CONTRACT } from "../const/addresses";
 import { useState } from "react";
 
-export default function AddTask() {
+export default function AddTaskButton() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const toast = useToast();
 
