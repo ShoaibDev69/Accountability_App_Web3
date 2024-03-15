@@ -9,7 +9,7 @@ type Props = {
   isCompleted: boolean;
 };
 
-export default function Taskcard({ taskId, task, isCompleted }: Props) {
+export default function TaskCard({ taskId, task, isCompleted }: Props) {
   let backgroundColor = "white";
   let borderColor = "gray.200";
   let fontColor = "gray.700";
