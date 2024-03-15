@@ -2,7 +2,7 @@ import { Input, Spinner, Stack, Text } from "@chakra-ui/react";
 import { Web3Button, useContract, useContractRead } from "@thirdweb-dev/react";
 import { ACCOUNTABILITY_CONTRACT } from "../const/addresses";
 import { useState } from "react";
-import TaskCard from "./TaskCard";
+// import TaskCard from "./TaskCard";
 import AddTaskButton from "./AddTaskButton";
 
 export default function Tasks() {
@@ -27,7 +27,7 @@ export default function Tasks() {
           <Stack>
             {!isTasksLoading && tasks ? (
               tasks.map((task: any, index: number) => (
-                <Taskcard
+                <TaskCard
                   key={index}
                   taskId={index}
                   task={task[0]}
