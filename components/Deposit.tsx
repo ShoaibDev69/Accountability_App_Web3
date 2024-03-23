@@ -11,7 +11,7 @@ export default function DepositFunds() {
     <Stack spacing={10}>
       <Box mt={10}>
         <Text fontSize={"2xl"} mb={8}>
-          You currently don't have a goal set.
+          You currently dont have a goal set.
         </Text>
         <Text>
           Desposit funds that will be transferred back once you complete the
