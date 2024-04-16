@@ -10,7 +10,7 @@ export default function DepositFunds() {
     return (
         <Stack spacing={10}>
             <Box mt={10}>
-                <Text fontSize={"2xl"} mb={8}>You currently don't have a goal set.</Text>
+                <Text fontSize={"2xl"} mb={8}>You currently don&apos;t have a goal set.</Text>
                 <Text>Desposit funds that will be transferred back once you complete the tasks you set.</Text>
             </Box>
             <Box>
@@ -22,7 +22,7 @@ export default function DepositFunds() {
                     onChange={(e) => setDepositAmount(e.target.valueAsNumber)}
                 />
             </Box>
-            
+
             <Web3Button
                 contractAddress={ACCOUNTABILITY_CONTRACT}
                 action={(contract) => contract.call(
