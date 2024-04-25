@@ -42,7 +42,7 @@ export default function TaskCard({ taskId, task, isCompleted }: Props) {
                                 status: 'success',
                                 duration: 9000,
                                 isClosable: true,
-                              })
+                            })
                         }}
                     >✓</Web3Button>
                 )}

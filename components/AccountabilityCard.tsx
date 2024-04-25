@@ -32,8 +32,8 @@ export default function AccountabilityCard() {
             {!isDepositAmountLoading && !isTaskCountLoading ? (
                 <Box>
                     {depositAmount == 0 && taskCount == 0 ? (
-                        <DepositFunds/>
-                    ): (
+                        <DepositFunds />
+                    ) : (
                         <Stack spacing={8}>
                             <Box>
                                 <Text fontSize={"2xl"} fontWeight={"bold"}>Goal amount: {ethers.utils.formatEther(depositAmount)} MATIC.</Text>
